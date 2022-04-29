@@ -1,0 +1,9 @@
+<div style="text-align: center;">
+  <h1>
+    Welcome to our Image Gallery!
+  </h1>
+  <button (click)="getJsonData()">Fetch Data</button>
+</div>
+<div class="gallery" *ngFor="let image of data">
+  <div class="desc">{{image.email}}</div>
+</div>
